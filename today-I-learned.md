@@ -1,0 +1,1 @@
+- Idempotency : a web api design where executing the sme operation multiple times will not lead to the result being changed. You execute it once, it happens once. example: payments, you click pay once and no matter how many times you click it again it should not execute again as that purchase has a unique key that has already been processed. 
